@@ -723,6 +723,7 @@ box-sizing: border-box;
     padding: 5px;
     margin: 10px;
     color: dimgray;
+	outline: none;
 }
 .saigo
 {

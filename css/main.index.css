@@ -1,6 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
 /*trang index*/
+@font-face
+{
+	font-family: demo1;
+	src:url("../font/SVN-Gotham Bold.ttf");
+}
+@font-face
+{
+	font-family: demo2;
+	src:url("../font/SVN-Gotham Light.ttf");
+}
 *{
     margin: 0;
     padding: 0;
@@ -13,13 +23,14 @@ body{
     align-items: center;
     min-height: 100vh;
 	background: #000000;
+	
 }
 
 .iam{
   color: white;
     font-size: 65px;
     padding: 15px;
-    font-family: sans-serif;
+    font-family: demo1;
 	
 }
 .iam a
@@ -36,6 +47,6 @@ body{
   color: white;
     border-right: 2px solid red;
     font-size: 65px;
-    font-family: sans-serif;
+    font-family: demo2;
     color: rgb(255, 30, 0);
 }

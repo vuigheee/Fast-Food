@@ -1,16 +1,39 @@
 @charset "utf-8";
 /* CSS Document */
+@font-face
+{
+	font-family:demo1;
+	src: url("../font/SVN-Gotham Bold.ttf");
+	
+}
+@font-face
+{
+	font-family: demo2;
+	src: url("../font/SVN-Gotham Light.ttf");
+	
+}
+body
+{
+	padding: 0;
+	margin: 0;
+	
+}
 .container1
 {
     width: 100%;
     height:auto;
     background:white;
+	overflow: scroll;
+	scroll-behavior: smooth;
 }
 .header
 {
     width: 100%;
     height: 100px;
     background:white;
+	font-family: demo2;
+	position: fixed;
+	z-index: 100000;
 }
 .logo
 {
@@ -107,7 +130,7 @@
     width: 10px;
     height:10px;
     float: right;
-    padding: 10px 30px;
+    padding: 10px 100px;
 }
 /*icon*/
 .overlay {
@@ -245,7 +268,12 @@
     float: left;
     margin: 20px;
     box-sizing: border-box;
+	font-family: demo2;
         
+}
+.cake-01 h1
+{
+	font-family:demo1;
 }
 .cake .cake-01:hover
 {
@@ -266,13 +294,15 @@ h1{
   text-align:center;
   padding: 20px;
     color: darkgoldenrod;
+	
 }
 .lienket
 {
     width: 100%;
     display: flex;
     justify-content: center;
-    
+		font-family: demo2;
+   
 }
 .nhan-1 {
   
@@ -287,6 +317,8 @@ h1{
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
+	
+	
   
 }
 .nhan-1:hover {color: red;
@@ -294,12 +326,13 @@ h1{
 .lienket .nhan-1 a
 {
    text-decoration: none; 
+
 }
 /* Slider */
 
 .slick-slide {
     margin: 0px 25px;
-    
+    font-family: demo2;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -523,10 +556,10 @@ section .slick-slide a
 .conten1
 {
     width: 100%;
-    height: 800px;
+    height: 100vh;
     background-image: url(https://images.unsplash.com/photo-1543353071-10c8ba85a904?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
     background-size: cover;
-    
+    font-family: demo1;
     position: relative;
 }
 .sale
@@ -577,7 +610,7 @@ section .slick-slide a
 {
     width: 100%;
     height: 800px;
-    margin: 10px;
+
     box-sizing: border-box;
 }
 .conten3a
@@ -730,7 +763,7 @@ box-sizing: border-box;
     width: 100%;
     height: 300px;
     padding: 0px 50px;
-    
+    font-family: demo2;
     box-sizing: border-box;
 }
 .saigo1
